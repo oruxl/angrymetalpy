@@ -68059,3 +68059,653 @@
         "British Metal"
     ]
 }
+{
+    "album": "Steeple and Spire", 
+    "artist": "Black Book Lodge", 
+    "author": "GardensTale", 
+    "date": "2018-05-24", 
+    "score": 4.0, 
+    "tags": [
+        "Mighty Music", 
+        "Black Book Lodge", 
+        "Tool", 
+        "Steeple and Spire", 
+        "Danish Metal", 
+        "Avenged Sevenfold", 
+        "Progressive Metal", 
+        "Crone", 
+        "Post-Metal"
+    ]
+}
+{
+    "album": "The Years of Harsh Truths and Little Lies", 
+    "artist": "BornBroken", 
+    "author": "Dr. Wvrm", 
+    "date": "2018-05-24", 
+    "score": 2.0, 
+    "tags": [
+        "Pantera", 
+        "BornBroken", 
+        "Death Metal", 
+        "Self Released", 
+        "Canadian Metal", 
+        "Thrash Metal", 
+        "Metalcore", 
+        "Lamb of God", 
+        "The Years of Harsh Truths and Little Lies", 
+        "Disarmonia Mundi"
+    ]
+}
+{
+    "album": "\u00c6ternalis", 
+    "artist": "Apocrophex", 
+    "author": "Kronos", 
+    "date": "2018-05-23", 
+    "score": 3.5, 
+    "tags": [
+        "Artificial Brain", 
+        "Mephistopheles", 
+        "Gorguts", 
+        "American Metal", 
+        "Apocrophex", 
+        "Death Metal", 
+        "Suffocation", 
+        "Immolation", 
+        "Incantation", 
+        "Progressive Metal", 
+        "\u00c6ternalis", 
+        "Cynic"
+    ]
+}
+{
+    "album": "Domedon Doxomedon", 
+    "artist": "Necros Christos", 
+    "author": "Akerblogger", 
+    "date": "2018-05-23", 
+    "score": 2.5, 
+    "tags": [
+        "Morbid Angel", 
+        "Necrophagia", 
+        "German Metal", 
+        "Sepulchural Voice Records", 
+        "Carcass", 
+        "Domedon Doxomedon", 
+        "Death Metal", 
+        "Immolation", 
+        "Necros Christos"
+    ]
+}
+{
+    "album": "Liquid Anatomy", 
+    "artist": "Alkaloid", 
+    "author": "L. Saunders", 
+    "date": "2018-05-22", 
+    "score": 4.0, 
+    "tags": [
+        "German Metal", 
+        "Alkaloid", 
+        "Technical Death Metal", 
+        "Death Metal", 
+        "Progressive Death", 
+        "Progressive Metal", 
+        "Season of Mist Records", 
+        "Liquid Anatomy", 
+        "Cynic"
+    ]
+}
+{
+    "album": "Hellhound", 
+    "artist": "Monument", 
+    "author": "Steel Druhm", 
+    "date": "2018-05-22", 
+    "score": 2.5, 
+    "tags": [
+        "Iron Maiden", 
+        "Rock of Angels Records", 
+        "Heavy Metal", 
+        "White Wizzard", 
+        "Running Wild", 
+        "UK Metal", 
+        "Monument", 
+        "Hellhound", 
+        "Judas Priest"
+    ]
+}
+{
+    "album": "Peace Off", 
+    "artist": "Noisepicker", 
+    "author": "Dr. A.N. Grier", 
+    "date": "2018-05-20", 
+    "score": 2.0, 
+    "tags": [
+        "Peace Off", 
+        "Gwar", 
+        "Noisepicker", 
+        "End of Level Boss", 
+        "Nosepicker", 
+        "Lord of Putrefaction", 
+        "Decomposed", 
+        "Tom Waits", 
+        "Mushroomhead", 
+        "Electric Wizard", 
+        "Stoner Metal", 
+        "The Earls of Mars", 
+        "Exile On Mainstream Records", 
+        "Blues", 
+        "Doom Metal", 
+        "British Metal", 
+        "Ghoul"
+    ]
+}
+{
+    "album": "Necroshiva", 
+    "artist": "Zarraza", 
+    "author": "GardensTale", 
+    "date": "2018-05-19", 
+    "score": 3.0, 
+    "tags": [
+        "Necroshiva", 
+        "Kazakh Metal", 
+        "Groove Metal", 
+        "Death Metal", 
+        "Self Released", 
+        "Thrash Metal", 
+        "Holy Dragons", 
+        "Machine Head", 
+        "Zarraza"
+    ]
+}
+{
+    "album": "Light Will Consume Us All", 
+    "artist": "CHRCH", 
+    "author": "Huck N Roll", 
+    "date": "2018-05-18", 
+    "score": 3.5, 
+    "tags": [
+        "Pallbearer", 
+        "American Metal", 
+        "Bell Witch", 
+        "Fister", 
+        "Light Will Consume Us All", 
+        "Neurosis", 
+        "Black Metal", 
+        "Doom Metal", 
+        "CHRCH"
+    ]
+}
+{
+    "album": "Welcome to Bonkers", 
+    "artist": "Nekrogoblikon", 
+    "author": "Eldritch Elitist", 
+    "date": "2018-05-18", 
+    "score": 2.5, 
+    "tags": [
+        "Mystery Box", 
+        "American Metal", 
+        "Amon Amarth", 
+        "Welcome to Bonkers", 
+        "Gorod", 
+        "Finntroll", 
+        "Melodic Death Metal", 
+        "Nekrogoblikon"
+    ]
+}
+{
+    "album": "Queen of Time", 
+    "artist": "Amorphis", 
+    "author": "Angry Metal Guy", 
+    "date": "2018-05-17", 
+    "score": 4.0, 
+    "tags": [
+        "Amorphis", 
+        "Barren Earth", 
+        "Skyforger", 
+        "Finnish Metal", 
+        "Nuclear Blast", 
+        "Kingston Wall", 
+        "Orphaned Land", 
+        "The Beginning of Times", 
+        "Death Metal", 
+        "The Never Ending Way of ORwarriOR", 
+        "Tales from the Thousand Lakes", 
+        "Under a Red Cloud", 
+        "Olli-Pekka Laine", 
+        "Heavy Metal", 
+        "Queen of Time", 
+        "Circle", 
+        "Tomi Joutsen", 
+        "Jens Bogren"
+    ]
+}
+{
+    "album": "Im Ra Distare Summum Soveris Seris Vas innoble", 
+    "artist": "Reverorum ib Malacht", 
+    "author": "Grymm", 
+    "date": "2018-05-17", 
+    "score": 0.0, 
+    "tags": [
+        "Orphaned Land", 
+        "Batushka", 
+        "Im Ra Distare Summum Soveris Seris Vas innoble", 
+        "Queensryche", 
+        "Tetragrammacide", 
+        "Blut Aus Nord", 
+        "Mayhem", 
+        "Reverorum ib Malacht", 
+        "Black Metal", 
+        "Annapurna Production", 
+        "Zao", 
+        "Swedish Metal"
+    ]
+}
+{
+    "album": "The Light That Shines", 
+    "artist": "Fractal Gates", 
+    "author": "Master of Muppets", 
+    "date": "2018-05-16", 
+    "score": 2.5, 
+    "tags": [
+        "The Light That Shines", 
+        "Enshine", 
+        "Scar Symmetry", 
+        "Rain Without End Records", 
+        "Before the Dawn", 
+        "Space Metal", 
+        "Fractal Gates", 
+        "Melodic Death Metal", 
+        "French Metal"
+    ]
+}
+{
+    "album": "To Drink From The Night Itself", 
+    "artist": "At The Gates", 
+    "author": "Grymm", 
+    "date": "2018-05-16", 
+    "score": 3.0, 
+    "tags": [
+        "The Lurking Fear", 
+        "Carcass", 
+        "Death Metal", 
+        "At the Gates", 
+        "Century Media Records", 
+        "Swedish Metal", 
+        "To Drink From The Night Itself", 
+        "Crippled Black Phoenix"
+    ]
+}
+{
+    "album": "We Disappear", 
+    "artist": "Hegemone", 
+    "author": "Kronos", 
+    "date": "2018-05-15", 
+    "score": 3.0, 
+    "tags": [
+        "Hegemone", 
+        "Demebur Morti", 
+        "Post-Black Metal", 
+        "Polish Metal", 
+        "We Disappear", 
+        "Post-Metal"
+    ]
+}
+{
+    "album": "Auf Grund", 
+    "artist": "Ewig.Endlich.", 
+    "author": "Eldritch Elitist", 
+    "date": "2018-05-15", 
+    "score": 2.0, 
+    "tags": [
+        "German Metal", 
+        "Dedication Records", 
+        "Dragonforce", 
+        "Auf Grund", 
+        "Der Weg einer Freiheit", 
+        "Ghost Bath", 
+        "Black Metal", 
+        "WOOAAARGH", 
+        "Ewig.Endlich.", 
+        "Post-Metal"
+    ]
+}
+{
+    "album": "Hierurgy", 
+    "artist": "Panegyrist", 
+    "author": "Steel Druhm", 
+    "date": "2018-05-14", 
+    "score": 3.5, 
+    "tags": [
+        "Manilla Road", 
+        "Arcturus", 
+        "Panegyrist", 
+        "American Metal", 
+        "Hierurgy", 
+        "Vh\u00f6l", 
+        "Black Metal", 
+        "I Voidhanger Records"
+    ]
+}
+{
+    "album": "Herephemine", 
+    "artist": "The Ever Living", 
+    "author": "Mark Z.", 
+    "date": "2018-05-14", 
+    "score": 2.5, 
+    "tags": [
+        "Rosetta", 
+        "Chromism Records", 
+        "The Ever Living", 
+        "Tool", 
+        "Herephemine", 
+        "Aphex Twin", 
+        "Neurosis", 
+        "Ambient Metal", 
+        "Altar of Plagues", 
+        "Allochiria", 
+        "British Metal", 
+        "Post-Metal"
+    ]
+}
+{
+    "album": "Knee Deep in the Dead", 
+    "artist": "Traitor", 
+    "author": "Diabolus in Muzaka", 
+    "date": "2018-05-13", 
+    "score": 3.5, 
+    "tags": [
+        "German Metal", 
+        "Knee-Deep in the Dead", 
+        "Violent Creek Records", 
+        "Thrash Metal", 
+        "Traitor", 
+        "Destruction", 
+        "Kreator", 
+        "Sodom"
+    ]
+}
+{
+    "album": "Evil Upheaval", 
+    "artist": "Depravity", 
+    "author": "Ferrous Beuller", 
+    "date": "2018-05-11", 
+    "score": 3.5, 
+    "tags": [
+        "Australian Metal", 
+        "Impiety", 
+        "Death Metal", 
+        "Bloodlust", 
+        "Blood Red Throne", 
+        "Evil Upheaval", 
+        "Depravity", 
+        "Monstrosity", 
+        "Cannibal Corpse", 
+        "Mhorgl", 
+        "Transcending Obscurity"
+    ]
+}
+{
+    "album": "Servants", 
+    "artist": "Nekrokraft", 
+    "author": "Dr. A.N. Grier", 
+    "date": "2018-05-11", 
+    "score": 3.0, 
+    "tags": [
+        "Witchery", 
+        "The Sign Records", 
+        "Hypocrisy", 
+        "Old Man's Child", 
+        "Dissection", 
+        "Death Metal", 
+        "Thrash Metal", 
+        "Nekrokraft", 
+        "Black Metal", 
+        "Servants", 
+        "Emperor", 
+        "Dimmu Borgir", 
+        "Swedish Metal"
+    ]
+}
+{
+    "album": "Selbstwelt", 
+    "artist": "Kroda", 
+    "author": "Dr. A.N. Grier", 
+    "date": "2018-05-10", 
+    "score": 4.0, 
+    "tags": [
+        "Ukrainian Metal", 
+        "Folk Metal", 
+        "Rotting Christ", 
+        "Summoning", 
+        "Marduk", 
+        "Purity Through Fire", 
+        "Samael", 
+        "Black Metal", 
+        "Kroda", 
+        "Selbstwelt"
+    ]
+}
+{
+    "album": "Beneath Ancient Portals", 
+    "artist": "Abythic", 
+    "author": "Kronos", 
+    "date": "2018-05-10", 
+    "score": 2.0, 
+    "tags": [
+        "German Metal", 
+        "Blood Harvest", 
+        "Tomb Mold", 
+        "Death Metal", 
+        "Triumvir Foul", 
+        "Impetuous Ritual", 
+        "Abythic", 
+        "Beneath Ancient Portals"
+    ]
+}
+{
+    "album": "Savagery", 
+    "artist": "Skinless", 
+    "author": "Ferrous Beuller", 
+    "date": "2018-05-09", 
+    "score": 3.0, 
+    "tags": [
+        "Savagery", 
+        "Relapse Records", 
+        "Death Metal", 
+        "American Metal", 
+        "Skinless"
+    ]
+}
+{
+    "album": "Aion Sitra Ahra", 
+    "artist": "Adversvm", 
+    "author": "Grymm", 
+    "date": "2018-05-09", 
+    "score": 2.0, 
+    "tags": [
+        "German Metal", 
+        "Batushka", 
+        "Advservm", 
+        "Blut Aus Nord", 
+        "Funeral Doom", 
+        "Aion Sitra Ahra", 
+        "Drone", 
+        "Five Finger Death Punch", 
+        "Thergothon", 
+        "Iron Bonehead Productions", 
+        "Doom Metal", 
+        "SunnO)))"
+    ]
+}
+{
+    "album": "The Band From Beyond", 
+    "artist": "From Beyond", 
+    "author": "Steel Druhm", 
+    "date": "2018-05-08", 
+    "score": 3.0, 
+    "tags": [
+        "Ghost", 
+        "Self Release", 
+        "American Metal", 
+        "The Band From Beyond", 
+        "Stoner Rock", 
+        "From Beyond", 
+        "Uncle Acid and the Deadbeats", 
+        "Doom Metal", 
+        "Danzig"
+    ]
+}
+{
+    "album": "Eye of the Storm", 
+    "artist": "Burden of Grief", 
+    "author": "Master of Muppets", 
+    "date": "2018-05-08", 
+    "score": 3.0, 
+    "tags": [
+        "In Flames", 
+        "German Metal", 
+        "Eye of the Storm", 
+        "Burden of Grief", 
+        "Dark Tranquility", 
+        "Metalcore", 
+        "Killswitch Engage", 
+        "Massacre Records", 
+        "Melodic Death Metal", 
+        "All That Remains"
+    ]
+}
+{
+    "album": "Solitude", 
+    "artist": "Totalselfhatred", 
+    "author": "Treble Yell", 
+    "date": "2018-05-07", 
+    "score": 3.5, 
+    "tags": [
+        "Violet Cold", 
+        "Solitude", 
+        "Finnish Metal", 
+        "Totalselfhatred", 
+        "Opeth", 
+        "Osmose Productions", 
+        "Agalloch", 
+        "Post-Black Metal", 
+        "Atmospheric Black Metal", 
+        "Katatonia"
+    ]
+}
+{
+    "album": "Armor of Light", 
+    "artist": "Riot V", 
+    "author": "Steel Druhm", 
+    "date": "2018-05-07", 
+    "score": 3.0, 
+    "tags": [
+        "Riot V", 
+        "American Metal", 
+        "Riot", 
+        "Thundersteel", 
+        "Unleash the Fire", 
+        "Nuclear Blast Records", 
+        "Heavy Metal"
+    ]
+}
+{
+    "album": "Carnage", 
+    "artist": "Lik", 
+    "author": "El Cuervo", 
+    "date": "2018-05-07", 
+    "score": 3.5, 
+    "tags": [
+        "Iron Maiden", 
+        "The Night Flight Orchestra", 
+        "Death Metal", 
+        "LIK", 
+        "Entombed", 
+        "Bloodbath", 
+        "Swedish Metal", 
+        "Dismember", 
+        "Carnage"
+    ]
+}
+{
+    "album": "Wrath of the Wilds", 
+    "artist": "Wormlight", 
+    "author": "Dr. Wvrm", 
+    "date": "2018-05-06", 
+    "score": 3.0, 
+    "tags": [
+        "Behemoth", 
+        "Black Lion Records", 
+        "Black Metal", 
+        "Wormlight", 
+        "Sons ov Omega", 
+        "Wrath of the Wilds", 
+        "Sulphur Aeon", 
+        "Swedish Metal"
+    ]
+}
+{
+    "album": "Mirror of Creation III", 
+    "artist": "Tomorrow's Eve", 
+    "author": "GardensTale", 
+    "date": "2018-05-05", 
+    "score": 2.5, 
+    "tags": [
+        "Fates Warning", 
+        "Nuclear Blast", 
+        "German Metal", 
+        "Bruce Dickinson", 
+        "Progressive Metal", 
+        "Tomorrow's Eve", 
+        "Mirror of Creation III - Project Ikaros"
+    ]
+}
+{
+    "album": "Geometria", 
+    "artist": "Thy Catafalque", 
+    "author": "Dr. Wvrm", 
+    "date": "2018-05-04", 
+    "score": 2.5, 
+    "tags": [
+        "Season of Mist", 
+        "Hungarian Metal", 
+        "Thy Catafalque", 
+        "Black Metal", 
+        "Geometria", 
+        "Avant Garde"
+    ]
+}
+{
+    "album": "Eonian", 
+    "artist": "Dimmu Borgir", 
+    "author": "Eldritch Elitist", 
+    "date": "2018-05-04", 
+    "score": 3.0, 
+    "tags": [
+        "Nuclear Blast", 
+        "Symphonic Black Metal", 
+        "Norwegian Metal", 
+        "Eonian", 
+        "Dark Tranquillity", 
+        "Carach Angren", 
+        "Dimmu Borgir", 
+        "Cradle of Filth", 
+        "Devin Townsend Project"
+    ]
+}
+{
+    "album": "\u00c0mr", 
+    "artist": "Ihsahn", 
+    "author": "Ferrous Beuller", 
+    "date": "2018-05-04", 
+    "score": 3.5, 
+    "tags": [
+        "Emperor", 
+        "Leprous", 
+        "The Night Flight Orchestra", 
+        "Norwegian Metal", 
+        "Black Metal", 
+        "Progressive Metal", 
+        "Ihsahn", 
+        "Amr", 
+        "Candlelight Records"
+    ]
+}

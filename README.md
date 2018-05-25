@@ -15,15 +15,15 @@ This text file may be imported by library functions to build lists of reviews an
 ### Optional packages
 
 - The scraping tool uses lxml and requests
-- Matplotlib for plotting and data visualization
+- Matplotlib is used for plotting and data visualization
 - Scipy for fitting and analysis
 
 ### Running the scraper
 
 ```
-# first-time use (get everything!)
-./amg_scrape.py
+# first-time use (get everything! Takes a while...)
+python amg_scrape.py
 
-# subsequent use (add new reviews to your data file)
-./amg_scrape.py your_data_file_name.txt
+# subsequent use (only add new reviews to your data file)
+python amg_scrape.py your_data_file_name.txt
 ```
