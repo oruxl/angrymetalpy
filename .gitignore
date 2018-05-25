@@ -1,0 +1,11 @@
+# python
+__pycache__/
+.pyc
+build/
+
+# generated figures
+.pdf
+.png
+
+# windows thumbnails
+Thumbs.db
