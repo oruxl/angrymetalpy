@@ -9,3 +9,7 @@ build/
 
 # windows thumbnails
 Thumbs.db
+
+# data files from tools folder
+tools/log.txt
+tools/data*

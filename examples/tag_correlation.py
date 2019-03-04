@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import angrymetalpy as amp
 
 if __name__ == '__main__':
-    reviews = amp.reviews_from_txt('data_20180422.txt')
+    reviews = amp.reviews_from_json('data_20180422.txt')
 
     # we want to build a correlation plot for pairs of tags
     # start by finding all tags we are dealing with

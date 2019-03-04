@@ -14,6 +14,7 @@ import re
 
 import angrymetalpy as amp
 
+
 def stringify_children(node):
     """ Converts content within a tag to text even if inside another tag """
     parts = ([node.text] +
@@ -22,9 +23,10 @@ def stringify_children(node):
     # filter removes possible Nones in texts and tails
     return ''.join(filter(None, parts))
 
+
 def get_review_url(start_page=1, end_page=None):
     """ Returns a list of review page urls from AMG """
-    baseurl = 'http://www.angrymetalguy.com/category/reviews/'
+    baseurl = 'http://www.angrymetalguy.com/' #category/reviews/'
     urllist = []
 
     if end_page is None:
@@ -70,7 +72,8 @@ def get_page_data(URL):
         artist = album_artist.split(' - ')[0]
         album = album_artist.split(' - ')[1]
     except:
-        print('Could not get album/artist info from {}'.format(URL))
+        with open('log.txt', 'a') as f:
+            f.write('Could not get album/artist info from {}\n'.format(URL))
         artist = ''
         album = ''
 
@@ -119,12 +122,12 @@ def get_page_data(URL):
                 scorestr = ''
                 for elem in scorep:
                     elem = elem.strip().split('!')[0] # some cleanup of the string...
-                    for keyword in amp.amg_score_mapping.keys():
+                    for keyword in amp.site_score_mapping.keys():
                         # technically this section is incorrect because "good" will also find "very good"
                         # however the key list has "very good" first, so it should break before checking "good"
                         score_search = re.search(keyword, elem, flags=re.IGNORECASE)
                         if score_search is not None:
-                            scorestr = str(amp.amg_score_mapping[score_search.group(0).lower()])
+                            scorestr = str(amp.site_score_mapping[score_search.group(0).lower()])
                             break
 
                     if scorestr != '':
@@ -133,7 +136,8 @@ def get_page_data(URL):
     try:
         score = float(scorestr)
     except:
-        print('Could not get score from {}'.format(URL))
+        with open('log.txt', 'a') as f:
+            f.write('Could not get score from {}\n'.format(URL))
         score = -1
 
     try:
@@ -144,11 +148,12 @@ def get_page_data(URL):
     except UnicodeEncodeError:
         print('Unicode error: {}'.format(URL))
 
+
 def update(prev_file='', max_page=None):
     """ Scrape data. If a filename is specified, only scrape until the program
         encounters a review already in the file. """
     if prev_file != '':
-        reviews = amp.reviews_from_txt(prev_file)
+        reviews = amp.reviews_from_csv(prev_file)
         review_titles = [_.album for _ in reviews]
 
     filename = 'data_{}.txt'.format(
@@ -173,8 +178,8 @@ def update(prev_file='', max_page=None):
                             continue
 
                     # else write to the file
-                    print('writing {}'.format(rev.album))
-                    f.write(rev.json() + '\n')
+                    #print('writing {}'.format(rev.album))
+                    f.write(rev.csv().encode('utf-8') + '\n')
 
             page_count += 1
             if max_page is not None:

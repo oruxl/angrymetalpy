@@ -22,7 +22,7 @@ def residual(p, x, y, err):
 
 
 if __name__ == '__main__':
-    reviews = amp.reviews_from_txt('data_20180422.txt')
+    reviews = amp.reviews_from_json('data_20180422.txt')
     min_date, max_date = amp.date_range(reviews)
     num_months = amp.months_between(min_date, max_date) + 1
 

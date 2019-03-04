@@ -1,6 +1,8 @@
 import json
 import datetime as dt
 import numpy as np
+import csv
+from StringIO import StringIO
 
 # These are the interpretation of the scores listed on the site
 # Could be useful for something...
@@ -106,6 +108,24 @@ class Review(object):
         }
         return json.dumps(json_dict, cls=_SetEncoder, indent=4, sort_keys=True)
 
+    def csv(self):
+
+        def escape(string):
+            esc_string = "\"" + string + "\""
+	    if type(esc_string) != unicode:
+		esc_string =  esc_string.decode('utf-8')
+	    return esc_string
+
+        tag_string = escape(';'.join(self._tags))
+        csv_fields = [
+            escape(self._album), escape(self._artist), 
+            escape(self._author), 
+            dt.datetime.strftime(self._date, "%Y-%m-%d"), 
+            tag_string, str(self._score)
+        ]
+
+        return ','.join(csv_fields)
+
     @property
     def album(self):
         return self._album
@@ -147,6 +167,44 @@ class Review(object):
             return rev
         except Exception as e:
             raise ValueError
+
+    @staticmethod
+    def from_csv(string):
+        """ Create a review object from a CSV string """
+
+	def unicode_csv_reader(utf8_data, dialect=csv.excel, **kwargs):
+	    csv_reader = csv.reader(utf8_data, dialect=dialect, **kwargs)
+	    for row in csv_reader:
+		yield [unicode(cell, 'utf-8') for cell in row]
+
+        line = StringIO(string)
+        csv_parse = unicode_csv_reader(line, quotechar='"')
+
+        def unescape(_str):
+            try:
+                _str = _str.encode('utf-8')
+            except:
+                pass
+
+            if _str[0] == '\"' and _str[:-1] == '\"':
+                return _str[1:-2]
+            return _str
+
+        rev = None
+        for info in csv_parse:
+            try:
+                album = unescape(info[0])
+                artist = unescape(info[1])
+                author = unescape(info[2])
+                date = dt.datetime.strptime(info[3], '%Y-%m-%d')
+                tags = unescape(info[4]).split(';')
+                score = float(info[5])
+
+                rev = Review(album, artist, author, date, set(tags), score, '')
+            except Exception as e:
+                raise ValueError
+
+        return rev
 
 
 class Reviewer(object):
@@ -204,7 +262,7 @@ class Reviewer(object):
         return scorehist
 
 
-def reviews_from_txt(fname):
+def reviews_from_json(fname):
     """ Return a list of reviews from a text file containing JSON dumps of review objects """
     reviews = []
     with open(fname, 'r') as f:
@@ -222,6 +280,20 @@ def reviews_from_txt(fname):
                 except ValueError:
                     # Not yet a complete JSON value
                     line += next(f)
+
+    return reviews
+
+def reviews_from_csv(fname):
+    """ Return a list of reviews from a text file containing csv-style review info """
+    reviews = []
+    with open(fname, 'r') as f:
+        for line in f:
+            #try:
+            rev = Review.from_csv(line)
+            if rev.is_valid():
+                reviews.append(rev)
+            #except ValueError:
+            #    pass
 
     return reviews
 

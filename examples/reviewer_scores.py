@@ -6,7 +6,7 @@ import angrymetalpy as amp
 
 
 if __name__ == '__main__':
-    reviews = amp.reviews_from_txt('data_20180422.txt')
+    reviews = amp.reviews_from_json('data_20180422.txt')
     amg_reviewers = amp.reviewers_from_reviews(reviews)
 
     amg_reviewers = sorted(amg_reviewers, key=lambda x: len(x.reviews))
